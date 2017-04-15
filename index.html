@@ -345,9 +345,9 @@
 		<!--added by authro-->
 		<script type="text/javascript">
 			url = '../winners/';
-    		                $.get(url, function(data){
-                
+    		                $.get(url, function(data){           
                     		$('#toappend').html(data);
+				$('#menu-winners').hide();
                     console.log("content added");
                  });
 		</script>
