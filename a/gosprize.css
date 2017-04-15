@@ -8,5 +8,8 @@
 .no-margin {
         margin: 0 0 0 0;
 }
+.border-bottom {
+        border-bottom: 1px solid #DDD;
+}
 
 
