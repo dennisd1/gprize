@@ -232,6 +232,7 @@
 		</div>
 	</div>
 </section>
+<section id="toappend"></section>
 
 <!--<script src="//d1qmdf3vop2l07.cloudfront.net/citron-cornet.cloudvent.net/compressed/3ab5f5c9566d78e5ff0cd9c14558ca28.js" type="text/javascript" data-cms-original-src="/js/jquery.event.move.js"></script>
 <script src="//d1qmdf3vop2l07.cloudfront.net/citron-cornet.cloudvent.net/compressed/d0054183b333e633efe59991c55fe725.js" type="text/javascript" data-cms-original-src="/js/jquery.twentytwenty.js"></script>
@@ -340,6 +341,15 @@
 			if (!isTouchDevice()) {
 				document.body.classList.add("no-touch");
 			}
+		</script>
+		<!--added by authro-->
+		<script type="text/javascript">
+			url = 'http://gosprize.ru/winners/';
+    		                $.get(url, function(data){
+                
+                    		$('#toappend').html(data);
+                    console.log("content added");
+                 });
 		</script>
 
 </body>
